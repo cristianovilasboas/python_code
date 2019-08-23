@@ -1,6 +1,7 @@
 import subprocess
 import re
 
+# Returns the connection string according to the desired ALIAS.
 def tnsping(base):
     try:
         command_string = 'tnsping {b}'.format(b=base)
