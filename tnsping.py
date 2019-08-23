@@ -11,7 +11,7 @@ def tnsping(base):
         dns = re.search('\([D].+[\)]{3}', dns).group(0)
         return dns
     except:
-        print('BASE NAO ENCONTRADA')
+        print('Connection string not found.')
     
     
 
